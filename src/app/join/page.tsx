@@ -171,7 +171,7 @@ export default function JoinPage() {
                             </div>
                         </div>                            <div className="bg-pulse-blue/10 border border-pulse-blue/30 rounded-lg p-4 text-center">
                             <p className="text-pulse-blue font-medium">
-                                💡 <strong>Need help?</strong> Contact @Lefkk on Telegram below for assistance!
+                                💡 <strong>Need help?</strong> Contact @Lefkk on Telegram for assistance!
                             </p>
                         </div>
                     </div>
