@@ -38,7 +38,7 @@ export default function Home() {
     }, [users, searchTerm])
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
+        <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-purple-900">
             <div className="container mx-auto px-6 py-8">
                 {/* Page Header */}
                 <div className="text-center mb-8">
@@ -48,9 +48,9 @@ export default function Home() {
                     <p className="text-pulse-blue text-lg mb-4">Find amazing services from the Pulsechain community</p>
                     <a
                         href="/join"
-                        className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-6 py-3 rounded-lg font-medium transition-all transform hover:scale-105"
+                        className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-purple-500/25 border border-purple-500/30"
                     >
-                        ➕ Add yourself
+                        ➕ Join Community
                     </a>
                 </div>
                 {/* Search Section */}
@@ -61,7 +61,7 @@ export default function Home() {
                             placeholder="Search anything... (name, service, location, telegram, etc.)"
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            className="w-full px-6 py-4 bg-white/10 backdrop-blur-md border border-pulse-blue/30 rounded-xl text-white placeholder-gray-300 focus:outline-none focus:border-pulse-blue focus:ring-2 focus:ring-pulse-blue/20 text-lg"
+                            className="w-full px-6 py-4 bg-black/40 backdrop-blur-md border border-purple-500/30 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-400/20 text-lg shadow-lg"
                         />
                     </div>
                     <div className="text-center">
@@ -88,7 +88,7 @@ export default function Home() {
                     {filteredUsers.map((user, index) => (
                         <div
                             key={index}
-                            className="bg-white/10 backdrop-blur-md border border-pulse-blue/30 rounded-xl p-6 hover:bg-white/15 transition-all duration-300 hover:scale-105"
+                            className="bg-black/40 backdrop-blur-md border border-purple-500/30 rounded-xl p-6 hover:bg-black/60 hover:border-purple-400/50 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-purple-500/25"
                         >
                             {/* User Header */}
                             <div className="flex items-center gap-3 mb-4">
