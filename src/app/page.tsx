@@ -50,7 +50,7 @@ export default function Home() {
                         href="/join"
                         className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-purple-500/25 border border-purple-500/30"
                     >
-                        ➕ Join Community
+                        ➕ Add your service
                     </a>
                 </div>
                 {/* Search Section */}
