@@ -1,0 +1,16 @@
+{
+    "name": "Pulsechain Marketplace",
+    "short_name": "PLS Market",
+    "description": "Find amazing services from the Pulsechain community",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1e1b4b",
+    "theme_color": "#3b82f6",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}

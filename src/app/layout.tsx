@@ -6,6 +6,14 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
     title: 'PulseChain Marketplace',
     description: 'Find goods and services from the PulseChain community',
+    icons: {
+        icon: [
+            { url: '/favicon.ico' },
+            { url: '/favicon.svg', type: 'image/svg+xml' }
+        ],
+        apple: '/favicon.svg',
+    },
+    manifest: '/manifest.json',
 }
 
 export default function RootLayout({
@@ -15,7 +23,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+                {children}
+            </body>
         </html>
     )
 }
